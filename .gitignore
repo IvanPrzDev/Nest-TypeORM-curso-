@@ -4,6 +4,12 @@
 /build
 postgres/
 
+# Static files (uploaded images)
+static/uploads/*
+static/products/*
+!static/products/.gitkeep
+!static/uploads/.gitkeep
+
 # Logs
 logs
 *.log
